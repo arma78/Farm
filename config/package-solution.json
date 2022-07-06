@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "multi-farm-client-side-solution",
+    "id": "051138e8-b7e5-4e74-aad9-0bf302f28aa6",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "MultiFarm description"
+      },
+      "longDescription": {
+        "default": "MultiFarm description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "multi-farm Feature",
+        "description": "The feature that activates elements of the multi-farm solution.",
+        "id": "6ab7a561-0d23-4433-b8bc-dfedce2db992",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/multi-farm.sppkg"
+  }
+}

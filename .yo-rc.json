@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "multi-farm",
+    "libraryId": "051138e8-b7e5-4e74-aad9-0bf302f28aa6",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "MultiFarm",
+    "solutionShortDescription": "MultiFarm description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

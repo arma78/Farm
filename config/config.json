@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "multi-farm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/multiFarm/MultiFarmWebPart.js",
+          "manifest": "./src/webparts/multiFarm/MultiFarmWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MultiFarmWebPartStrings": "lib/webparts/multiFarm/loc/{locale}.js"
+  }
+}
